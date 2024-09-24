@@ -9,5 +9,4 @@ single = True #Boolean
 # Crie uma solicitação de dados ao usuário
 name = input("Digite seu nome: ")
 
-#Imprima a solicitação anterior na tela com uma mensagem personalizada
 print(f"Olá {name}, seja muito bem-vindo")
