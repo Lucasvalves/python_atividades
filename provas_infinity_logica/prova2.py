@@ -8,3 +8,6 @@ if maximum_speed > maximum_limit:
   text_fine_amount = text_fine_amount.replace('.', ",")
 
   print(f"Você foi multado. {text_fine_amount}")
+else:
+  print(f"Carro dentro da velocidade permitida")
+
