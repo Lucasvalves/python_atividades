@@ -13,7 +13,6 @@ while True:
 
   preco = float(input("Informe o preço do produto: "))
 
-
   total_gasto += preco
 
   if preco > 1000:
