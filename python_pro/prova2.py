@@ -18,5 +18,5 @@ lista_de_medias.sort(key=lambda x: x[1], reverse=True)
 classificacao = lista_de_medias
 
 print("Classificação de equipes")
-for equipe in classificacao:
-  print(f"Equipe {equipe[0]} {equipe[1]:.2f}")
+for equipe, media in classificacao:
+  print(f"Equipe {equipe} {media:.2f}")
