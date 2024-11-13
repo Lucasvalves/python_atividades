@@ -4,7 +4,6 @@ def processador_texto(texto, **kwargs):
 
   contar_palavras = lambda t: len(t.split())
 
-
   contar_letras = lambda t: len(t.replace(" ", ""))
 
   inverter_texto = lambda t: t[:: -1]
